@@ -30,6 +30,12 @@ html,body{
 	font-size: 16px;
 }
 
+@media screen and (max-width: 320px) {
+#especialidades h2 {
+  	font-size: 14px;
+  }
+}
+
 .abord-2 {
 	padding-top: 70px;
 	padding-bottom: 50px;
@@ -74,14 +80,21 @@ p {
 	left: 200px;
 }
 
+@media screen and (max-width: 320px) {
+	.localizacao {
+		left: -10px; 
+	}
+}
+
 #contato {
 	padding-top: 10px;
 	padding-bottom: 20px;
 	background-color: ;
 }
 
+
 footer {
-	background-color: blueviolet;
+	background-color: #16a99d;
 	margin-top: 0;
 }
 

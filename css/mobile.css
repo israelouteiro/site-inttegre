@@ -2,30 +2,9 @@
 	width: 96%;
 }
 
-@media screen and (max-width: 320px) {
-	.localizacao {
-		left: -10px; 
-	}
 
-.fundo {
-	background-image: url('mandala.png');
-	width: 90%;
-	height: 100%;
-	background-repeat: repeat;
-	display: table;	
-	position: center center fixed;	
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	opacity: 0.1; 
-	padding-top: 80px;
-	padding-bottom: 50%;	
-}
 
-  #especialidades h2 {
-  	font-size: 14px;
-  }
+  
 
   #contato h3 {
 	font-size: 18px;

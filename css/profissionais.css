@@ -16,28 +16,33 @@ html,body {
 	width: 100%;
 }
 
-.fundo {
-	background-image: url('mandala.png');
-	background-repeat: no-repeat;
-	display: table;	
+.profissionais:before {	
+	content:'';
+	width: 100%;
+	height: 100%;
 	position: absolute;
-	width: 97%;	
-	height: 90%;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	opacity: 0.1; 
-	padding-top: 80px;
-	padding-bottom: 50%;	
+	z-index: 1;
+	background-image: url('mandala.png');
+	background-repeat: repeat;
+	opacity: 0.1;		
 }
 
+.profissionais * {
+	z-index: 2;
+	position: relative;
+}
+
+@media screen and (max-width: 320px) {
+.profissionais {
+	background-repeat: repeat;
+	
+	}
+}
 
 p {
 	font-family:"Lato", Helvetica, Arial, sans-serif;
 	font-size: 18px;
 	text-align: justify;
-
 	font-weight: bold;
     color: #000000;
 }

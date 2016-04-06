@@ -9,35 +9,9 @@
           } 
         });  
       });
+      
 
-      function validar() {
-        var formulario = document.getElementById("formulario");
-        var email = formulario.email;
-        var nome = formulario.nome;
-
-        var regex_email = /^([\w-]+(\.[\w-]+)*)@(([\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(\.[a-z]{2})?)$/i;
-        var regex_nome = /^[A-Za-záàâãéèêíïóôõöúçñÁÀÂÃÉÈÍÏÓÔÕÖÚÇÑ ]+$/ 
-
-        if (!regex_email.test(email.value)) {
-            document.querySelector('input[type=email]').oninvalid = function() {
-              this.setCustomValidity("");
-              if (!this.validity.valid) {
-                this.setCustomValidity("Digite um email valido");
-              }
-
-            }
-
-         }
-
-         if (regex_nome.test(nome.value)) {
-            alert("nome valido");
-         
-         } else {
-          alert("nome invalido");
-         }
-
-   }
-
+// botao para voltar ao inicio da home
    $(function() {
     $('.back-to-top').hide();
 
@@ -56,4 +30,40 @@
        }, 800);
     }); 
 
-    });       
+    }); 
+
+
+    //validacao de form
+   $(document).ready(function(){
+        $('#formulario').validate({
+            rules: {
+                nome: {
+                    required: true,
+                    minlength: 3
+                },
+                email: {
+                    required: true,
+                    email: true
+                },
+                
+                termos: "required"
+            },
+            messages: {
+                nome: {
+                    required: "O campo nome é obrigatório.",
+                    minlength: "O campo nome deve conter no mínimo 3 caracteres."
+                },
+                email: {
+                    required: "O campo email é obrigatório.",
+                    email: "O campo email deve conter um email válido."
+                },
+                
+            }
+ 
+        });
+    });
+
+
+
+
+   
