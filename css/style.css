@@ -1,0 +1,113 @@
+html,body{
+	height: 100%;
+	width:100%;
+}
+
+.navbar {
+	background-color: #99dcd5;
+	font-size: 20px;
+
+}
+
+.menu-fixo {
+	position: fixed;
+	top: 0;
+	z-index: 99;
+	width: 100%;
+}
+
+#especialidades {
+	padding-top: 70px;
+	padding-bottom: 50px;
+}
+
+#especialidades h3 {
+	color: #99dcd5;	
+}
+
+#especialidades h2 {
+	color: #99dcd5;	
+	font-size: 16px;
+}
+
+.abord-2 {
+	padding-top: 70px;
+	padding-bottom: 50px;
+	background-color: #effffc;	
+}
+
+.abord-2 p {
+	left: 200px;
+	right: 200px;
+	margin-top: 30px;
+	text-align: center;
+}
+
+.espe {
+	padding-top: 150px;
+}
+
+h1 {
+	border-bottom: 2px solid #005f63;
+	color:  #01a093;
+	font-size: 40px;
+}
+
+.texto1 {
+	padding-top: 50px;
+	padding-bottom: 70px;
+	background-color: #effffc;
+	margin-top: -25px;
+}
+.texto1 p {
+	text-align: justify;
+	text-indent: 50px;
+}
+
+p {
+	font-family:"Lato", Helvetica, Arial, sans-serif;
+	font-size: 18px;
+	text-align: justify;
+}
+
+.localizacao {
+	left: 200px;
+}
+
+#contato {
+	padding-top: 10px;
+	padding-bottom: 20px;
+	background-color: ;
+}
+
+footer {
+	background-color: #16a99d;
+	margin-top: 0;
+}
+
+footer a {
+	color: blue;
+}
+
+.redes {
+	margin-top: 20px;
+}
+
+.redes img {
+	width: 20%;
+	height: 20%;
+}
+
+.back-to-top {
+	width: 60px;
+	height: 60px;
+	display: block;
+	position: fixed;
+	bottom: 10px;
+	right: 20px;
+}
+
+.back-to-top:hover {
+	cursor: pointer;
+	background-position: 0 -60px;
+}
