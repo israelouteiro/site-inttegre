@@ -38,9 +38,7 @@ html,body {
 
 @media (max-width: 480px) {
 .fundo::after {
-	background-repeat: repeat-x;
-	width: 80%;
-	height: 80%;
+	background-repeat: repeat-x;	
 	}
 }
 
@@ -48,6 +46,13 @@ h2 {
 	margin-left: 0;
 	text-decoration: underline;
 }
+
+
+@media screen and (max-width: 320px) {
+	h2 {
+	font-size: 27px;
+	}
+}	
 
 p {
 	font-family:"Lato", Helvetica, Arial, sans-serif;
