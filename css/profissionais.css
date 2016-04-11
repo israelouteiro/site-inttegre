@@ -3,7 +3,7 @@ html,body {
   width: 100%;
   }
 
-  @media screen and (min-width: 767px) and (max-width:991px) {
+  @media screen and (min-width: 320px) and (max-width:1200px) {
   	.container {
   		width: auto;
   	}
@@ -40,20 +40,38 @@ html,body {
 	z-index: -1;
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
 .fundo::after {
 	background-repeat: no-repeat;	
 	background-attachment: fixed;
 	background-position: 0 180px;	    
-    height: 230%;
+    height: 180%;
+    width: 95%;
+    }
+} 
+
+@media screen and (max-width: 767px) {
+.fundo::after {		    
+    height: 180%;
+    
+    }
+}
+ 
+
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+.fundo::after {
+	height: 150%;
     width: 95%;   
     }
 }
 
-@media screen and (min-width: 767px) and (max-width: 991px) {
+@media screen and (min-width: 992px) and (max-width: 1200px) {
 .fundo::after {
-	height: 150%;
-    width: 95%;   
+	height: 160%;
+    width: 97%; 
+    background-size: 70%; 
+    margin-top: 0; 
     }
 }
 
@@ -102,15 +120,15 @@ footer {
 	margin-top: 265px;
 }
 
-@media screen and (min-width: 768px) and (max-width: 991px) {
+@media screen and (min-width: 767px) and (max-width: 991px) {
 #contato {	
-	margin-top: 350px;
+	margin-top: 300px;
     }
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (min-width: 992px) and (max-width: 1280px) {
 #contato {	
-	margin-top: 350px;
+	margin-top: 200px;
     }
 }
 
