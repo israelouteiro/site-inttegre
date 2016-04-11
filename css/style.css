@@ -3,6 +3,12 @@ html,body{
 	width:100%;
 }
 
+@media screen and (min-width: 767px) and (max-width:991px) {
+  	.container {
+  		width: auto;
+  	}
+  }
+
 .navbar {
 	background-color: #99dcd5;
 	font-size: 20px;
@@ -30,7 +36,7 @@ html,body{
 	font-size: 16px;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
 #especialidades h2 {
   	font-size: 14px;
   }
@@ -47,6 +53,12 @@ html,body{
 	right: 200px;
 	margin-top: 30px;
 	text-align: center;
+}
+
+@media screen and (min-width: 767px) and  (max-width: 991px) {
+	.abord-2  {
+		margin-left: -10px;		
+	}
 }
 
 .espe {
@@ -70,6 +82,12 @@ h1 {
 	text-indent: 50px;
 }
 
+@media screen and (min-width: 767px) and (max-width: 991px) {
+	.texto1 p {
+		margin-left: -30px;
+	}
+} 
+
 p {
 	font-family:"Lato", Helvetica, Arial, sans-serif;
 	font-size: 18px;
@@ -80,9 +98,15 @@ p {
 	left: 200px;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
 	.localizacao {
 		left: -10px; 
+	}
+} 
+
+@media screen and (max-width: 991px) {
+	.localizacao {
+		left: -1px; 
 	}
 }
 
