@@ -38,7 +38,7 @@ html,body {
 	z-index: -1;
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 767px) {
 .fundo::after {
 	background-repeat: no-repeat;
 	position: fixed;	
@@ -69,22 +69,6 @@ p {
     text-indent: 50px;
 }
 
-.texto3 {	
-	margin-left: 170px;
-}
-
-@media screen and (max-width: 767px) {
-.texto3 {
-	margin-left: -40px;
-	}
-} 
-
-@media screen and (min-width: 768px) and (max-width: 991px) {
-.texto3 {
-	margin-left: -30px;
-	}
-}
-
 .texto4 {
 	padding-top: 100px;
 } 
@@ -92,7 +76,8 @@ p {
 footer {
 	background-color: #16a99d;
 	margin-top: 310px;
-	padding-bottom: 5px;
+	padding-bottom: 15px;
+	padding-top: 20px;
 }
 
 footer a {
@@ -100,7 +85,7 @@ footer a {
 }
 
 .redes {
-	margin-top: 20px;
+	padding-top: 5px;
 }
 
 .redes img {

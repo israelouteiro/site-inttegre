@@ -26,9 +26,18 @@ html,body{
 	width: 100%;
 }
 
+.mandala {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
 #especialidades {
 	padding-top: 70px;
 	padding-bottom: 50px;
+}
+
+#especialidades h1 {
+	padding-bottom: 20px;
 }
 
 #especialidades h3 {
@@ -57,6 +66,10 @@ html,body{
 	right: 200px;
 	margin-top: 30px;
 	text-align: center;
+}
+
+.abord-2 h1 {
+	padding-bottom: 20px;
 }
 
 @media screen and (min-width: 767px) and  (max-width: 991px) {
@@ -124,8 +137,8 @@ p {
 
 footer {
 	background-color: #16a99d;
-	margin-top: 0;
-	padding-bottom: 5px;
+	padding-bottom: 15px;
+	padding-top: 20px;
 }
 
 footer a {
@@ -133,7 +146,7 @@ footer a {
 }
 
 .redes {
-	margin-top: 20px;
+	padding-top: 5px;
 }
 
 .redes img {
