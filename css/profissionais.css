@@ -7,6 +7,11 @@ html,body {
 	width: auto;
 }
 
+.mandala {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
 .navbar {
 	background-color: #99dcd5;
 	font-size: 20px;
