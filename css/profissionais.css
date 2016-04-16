@@ -1,3 +1,10 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	outline: none;
+}
+
 html,body {
 	height: 100%;
 	width: 100%;
@@ -72,6 +79,30 @@ p {
 	font-weight: bold;
     color: #000000;
     text-indent: 50px;
+}
+
+.texto3 {
+	width: 900px;
+    margin: 20px auto;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-left: auto;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+	.texto3 {
+	width: 100%;
+	margin-left: -15px;
+	}	
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+	.texto3 {
+	width: 100%;
+	margin-left: -15px;
+	}
+	
 }
 
 .texto4 {

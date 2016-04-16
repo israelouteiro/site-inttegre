@@ -65,9 +65,7 @@
 
 $(document).ready(function() {
   $("#navbar a[href^='#']").on("click", function(e) {
-    e.preventDefault(); 
-   
-    
+    e.preventDefault();    
 
     var hash = this.hash;
     $("html, body").animate( {
