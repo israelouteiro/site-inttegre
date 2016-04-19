@@ -43,6 +43,7 @@ html,body{
     color: #ccc;
     padding-top: 80px;
     padding-bottom: 80px;
+    background-color: blueviolet;
 }
 
 @media screen and (max-width: 991px) {
@@ -58,11 +59,13 @@ blockquote {
     font-style: italic;
     text-align: left;
     margin-bottom: 10px;
+
 }
 
 small {
     font-size: 11px;
     padding-left: 20px;
+    color: #ccc;
 }
 
 
