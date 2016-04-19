@@ -58,7 +58,6 @@ blockquote {
     font-style: italic;
     text-align: left;
     margin-bottom: 10px;
-
 }
 
 small {
@@ -67,15 +66,10 @@ small {
     color: #ccc;
 }
 
-
 #especialidades {
 	padding-top: 70px;
 	padding-bottom: 50px;
 	background-color: #effffc;
-}
-
-#especialidades h1 {
-	padding-bottom: 20px;
 }
 
 #especialidades h3 {
@@ -110,6 +104,7 @@ h1 {
 	border-bottom: 2px solid #005f63;
 	color:  #01a093;
 	font-size: 40px;
+	padding-bottom: 20px;
 }
 
 .texto1 {
@@ -146,7 +141,7 @@ p {
 	height: 100%;	
 	position: absolute;
 	z-index: -1;
-	margin-top: 60px;
+	margin-top: 200px;
 }
 
 @media screen and (max-width: 767px) {
@@ -159,7 +154,7 @@ p {
     width: 95%;
     
     }
-} 
+}
 
 h2 {
 	margin-left: 0;
@@ -181,6 +176,10 @@ p {
     text-indent: 50px;
 }
 
+.profissionais {
+	margin-top: 70px;
+}
+
 .texto3 {
 	width: 900px;
     margin: 20px auto;
@@ -198,7 +197,7 @@ p {
 @media screen and (min-width: 320px) and (max-width: 767px) {
 	.texto3 {
 	width: 100%;
-	
+
 	}
 
 	.texto3 small {
@@ -221,7 +220,6 @@ p {
 .abord-2 {
 	padding-top: 70px;
 	padding-bottom: 50px;
-	background-color: ;		
 }
 
 .abord-2 p {	
@@ -233,10 +231,6 @@ p {
     margin-right: auto;
     margin-bottom: 20px;
     margin-left: auto;
-}
-
-.abord-2 h1 {
-	padding-bottom: 20px;
 }
 
 @media screen and (min-width: 320px) and (max-width: 991px) {
