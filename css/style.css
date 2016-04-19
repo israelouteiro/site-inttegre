@@ -177,10 +177,8 @@ p {
 @media screen and (max-width: 767px) {
 .fundo::after {
 	background-repeat: no-repeat;		
-	background-attachment: fixed;
-	
-	box-sizing: border-box;
-	
+	background-attachment: fixed;	
+	box-sizing: border-box;	
 	position: ;	
 	background-position: 0 230px;
     width: 95%;
