@@ -146,13 +146,12 @@ p {
 
 @media screen and (max-width: 767px) {
 .fundo::after {
-	background-repeat: no-repeat;		
-	background-attachment: fixed;	
+	background-attachment: fixed, scroll;
+	background-repeat: no-repeat;				
 	box-sizing: border-box;	
 	position: ;	
-	background-position: 0 230px;
-    width: 95%;
-    
+	background-position: center;
+    width: 95%;      
     }
 }
 
