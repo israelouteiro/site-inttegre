@@ -136,7 +136,7 @@ p {
 	background-size: contain;
 	background-position: center center;
 	opacity: 0.2;
-	padding-top: 60%;
+	
 	width: 98%;
 	height: 100%;	
 	position: absolute;
@@ -149,7 +149,6 @@ p {
 	background-attachment: fixed, scroll;
 	background-repeat: no-repeat;				
 	box-sizing: border-box;	
-	position: ;	
 	background-position: center;
     width: 95%;      
     }
