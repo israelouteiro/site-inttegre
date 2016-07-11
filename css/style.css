@@ -66,19 +66,29 @@ small {
     color: #ccc;
 }
 
+/* Especialidades da clinica */
 #especialidades {
 	padding-top: 70px;
 	padding-bottom: 50px;
 	background-color: #effffc;
 }
+#especialidades h1 {
+	padding-bottom: 70px;
+}
 
 #especialidades h3 {
-	color: #99dcd5;	
+	color: #99dcd5;
+	padding-top: 30px;
+	padding-bottom: 15px;	
 }
 
 #especialidades h2 {
 	color: #99dcd5;	
 	font-size: 16px;
+}
+
+#especialidades img {
+	padding-top: 40px;
 }
 
 @media screen and (max-width: 767px) {
@@ -96,15 +106,13 @@ small {
     margin-left: auto;
 }
 
-.espe img {
-	padding-top: 25px;
-}
+
 
 h1 {
 	border-bottom: 2px solid #005f63;
 	color:  #01a093;
 	font-size: 40px;
-	padding-bottom: 20px;
+	padding-bottom: 50px;
 }
 
 .texto1 {
