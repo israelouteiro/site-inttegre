@@ -38,7 +38,6 @@ h1 {
 }
 
 h2 {
-	margin-left: 0;
 	color: #005f63;
 }
 
@@ -100,6 +99,7 @@ small {
 	padding-bottom: 50px;
 	background-color: #effffc;
 }
+
 #especialidades h1 {
 	padding-bottom: 70px;
 }
@@ -151,6 +151,29 @@ small {
 	position: relative;
 }
 
+/*Informacoes dos profissionais*/
+.prof {
+	margin-top: 70px;
+	margin-bottom: 70px;
+}
+
+.profissionais {
+	width: 900px;
+	margin: 0px auto;
+	margin-top: 50px;
+	margin-bottom: 80px;
+}
+
+.profissionais p {
+	padding-bottom: 50px;
+}
+
+@media screen and (max-width: 991px) {
+	.profissionais {
+		width: 100%;
+	}
+}
+
 .fundo::after {	
 	content:"";
 	background-image: url('mandala.png');	
@@ -177,72 +200,7 @@ small {
     }
 }
 
-/*Informacoes dos profissionais*/
-.profissionais {
-	margin-top: 70px;
-	margin-bottom: 70px;
-}
-
-.profissionais p {
-	text-align: justify;
-	width: 800px;
-    margin: 20px auto;
-    margin-top: 40px;    
-    margin-bottom: 20px;
-}
-
-.profissionais h2 {
-	width: 900px;
-	margin: 20px auto;
-    margin-top: 50px;    
-    margin-bottom: 20px; 
-}
-
-@media screen and (max-width: 991px) {
-	.profissionais p {
-		width: 100%;
-	}
-
-	.profissionais {
-		width: 100%;
-	}
-
-	.profissionais h2 {
-		width: 100%;
-	}
-}
-
-/* .texto3 {
-	width: 900px;
-    margin: 20px auto;
-    margin-top: 50px;    
-    margin-bottom: 20px;    
-    
-}
-
-.texto3 small {
-	font-size: 18px;
-    color: #2cb0a6;
-}
-
-@media screen and (min-width: 320px) and (max-width: 767px) {
-	.texto3 {
-	width: 100%;
-	}
-
-	.texto3 small {
-		font-size: 14px;
-	}	
-}
-
-@media screen and (min-width: 768px) and (max-width: 991px) {
-	.texto3 {
-	width: 100%;
-	margin-left: -15px;
-	}	
-} */
-
-
+/*Contato */
 #contato {
 	padding-top: 10px;
 	padding-bottom: 50px;	    
@@ -281,6 +239,17 @@ footer {
 
 footer a {
 	color: blue;
+}
+
+.rodape {
+	width: 1250px;
+	margin: 0 auto;
+}
+
+@media screen and (max-width: 767px) {
+	.rodape {
+		width: 100%;
+	}
 }
 
 .redes {
