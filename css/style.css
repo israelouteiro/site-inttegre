@@ -215,9 +215,9 @@ small {
 #formulario input {	
     padding: 10px;
     background-color: #eee;
-    border: none;
+    /* border: none;
     border-left: 3px solid #eee;
-    border-radius: 3px;
+    border-radius: 3px; */
     outline: none;
 }
 
