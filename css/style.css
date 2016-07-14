@@ -246,11 +246,18 @@ footer a {
 	margin: 0 auto;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 991px) {
 	.rodape {
 		width: 100%;
 	}
 }
+
+@media screen and (max-width: 1400px) {
+	.rodape {
+		width: 100%;
+	}
+}
+
 
 .redes {
 	padding-top: 5px;
@@ -280,6 +287,7 @@ footer a {
     font-variant: small-caps;
     text-align: center;
     color: #737373;
+    padding-top: 50px;
 }
 
 iframe {
