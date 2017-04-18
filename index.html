@@ -15,17 +15,90 @@
             <link rel="stylesheet" href="css/style.css"> 
             <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css"> 
             <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css"> 
+
+
+            <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+            <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+
+            <style>
+                .cover-page {
+                    width: 100%;
+                    height: 700px;
+                    background: url('/img/backgrounds/2.jpg') left center / cover;
+                }
+
+                .mdl-layout__header { 
+                    background-color: transparent; 
+                }
+
+                .mdl-layout__header .mdl-layout__drawer-button { 
+                    color: rgb(0, 95, 99); 
+                } 
+            </style>
+
         </head>
     <body>
 
-        <header>
-            <!-- imagem de fundo do header -->
+
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+  <header class="mdl-layout__header">
+    <div class="mdl-layout__header-row">
+      <!-- Title -->
+      <span class="mdl-layout-title">Title</span>
+      <!-- Add spacer, to align navigation to the right -->
+      <div class="mdl-layout-spacer"></div>
+      <!-- Navigation. We hide it in small screens. -->
+      <nav class="mdl-navigation mdl-layout--large-screen-only">
+        <a class="mdl-navigation__link" href="">Link</a>
+        <a class="mdl-navigation__link" href="">Link</a>
+        <a class="mdl-navigation__link" href="">Link</a>
+        <a class="mdl-navigation__link" href="">Link</a>
+      </nav>
+    </div>
+  </header>
+  <div class="mdl-layout__drawer">
+    <span class="mdl-layout-title">Title</span>
+    <nav class="mdl-navigation">
+      <a class="mdl-navigation__link" href="">Link</a>
+      <a class="mdl-navigation__link" href="">Link</a>
+      <a class="mdl-navigation__link" href="">Link</a>
+      <a class="mdl-navigation__link" href="">Link</a>
+    </nav>
+  </div>
+  <main class="mdl-layout__content">
+    <div class="page-content">
+
+        <div class="cover-page"></div>
+
+        <!-- Bem vindo -->
+        <h2 class="text-center">Bem vindo à Inttegre</h2>    
+        <p> O nome Inttegre vem da proposta inicial de estabelecer a missão de integração do indivíduo em suas diferentes fases da vida e contextos em que está inserido, buscando uma totalidade de autoconhecimento, saúde e bem-estar nos diversos campos de desenvolvimento, como o da aprendizagem, o biológico, o psíquico e o social.</p>
+
+        <p> Surgiu da ideia central do conceito de Individuação proposto por Jung, em que defendia ser o processo de crescimento psicológico do indivíduo, que tem como foco o desenvolvimento de sua totalidade.</p>
+
+        <p> A Clínica Inttegre oferece diversos serviços dentro das áreas de Psicologia e Psicopedagogia e terá um enorme prazer em atendê-los com muita dedicação e profissionalismo. A busca pelo processo de psicoterapia não é um auxílio apenas quando nos encontramos em crise ou sofrimento agudo, mas também no entendimento de nós mesmos em qualquer momento de vida. É o  
+
+        </p>
+
+    </div>
+  </main>
+</div>
+
+       
+
+
+
+
+
+
+
+    <!--
+        <header> 
             <div class="container mandala">
                 <img src="img/logo.jpg" class="img-responsive center-block" alt="">
             </div>
         </header>
-
-        <!-- painel de navegacao -->
+ 
         <nav class="navbar navbar-default" id="menuHeader" role="navigation">
             <div class="container-fluid">           
                 <div class="navbar-header">
@@ -70,8 +143,8 @@
                 <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
                     <img src="img/mandala.png" class="img-responsive" alt="">
                 </div>      
-            </div> <!-- fim /row -->
-        </div> <!-- fim /container-fluid -->
+            </div>  
+        </div>  
 
         <div class="citacao">
             <blockquote>
@@ -79,8 +152,7 @@
             </blockquote> 
             <p><small>— Carl Gustav Jung</small></p>                   
         </div>                 
-        
-        <!-- especialidades do consultorio -->
+         
         <div class="container">
             <div class="row text-center" id="especialidades">
                 <div class="col-xs-12 col-lg-12">
@@ -125,10 +197,9 @@
                         <p>Orientação Profissonal</p>
                     </div>         
                 </div>   
-            </div><!-- fim /row-->
-        </div><!-- fim /container-->
-        
-        <!--Informacoes dos profissionais-->
+            </div> 
+        </div> 
+         
         <div class="container-fluid" id="profissionais">
             <div class="row prof">
                 <div class="fundo"></div>
@@ -153,8 +224,7 @@
                 </div>                
             </div>
         </div>
-
-        <!--Contato --> 
+ 
         <div class="container-fluid">
             <div class="row" id="contato">
                 <div class="col-lg-12">
@@ -194,14 +264,13 @@
                                     </div>
                                 </form>
                             </div>      
-            
-                            <!-- localizacao -->
+             
                             <div class="col-xs-12 col-sm-4 col-md-3 col-lg-3 localizacao">
                                 <h3>Localização</h3>
                                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d51662.932152278045!2d-47.91591199857268!3d-15.757993460849628!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a3993e22af913%3A0xed3e872eacf2422e!2sCentro+Clinico+Vital+Brazil!5e0!3m2!1spt-BR!2sbr!4v1458926808605" width="285" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
                             </div>
-                        </div> <!-- fim /row -->
-                    </div> <!-- fim /container --> 
+                        </div> 
+                    </div>  
                 </div>
             </div>
         </div>
@@ -270,6 +339,12 @@
                 {}
             );
             wow.init();         
-        </script>
+        </script> -->
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>  
+        <script type="text/javascript" src="js/jquery.validate.js"></script>
+        <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+
     </body>
     </html>
