@@ -1,0 +1,103 @@
+@import url('../fontface/stylesheet.css');
+
+.cover-page {
+    width: 100%;
+    height: 650px;
+    background: url('/img/backgrounds/4.jpg') no-repeat center center / cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.line-cover{
+    width: 100%;
+    background: white;
+    opacity: .7;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.mdl-layout__header-row{
+    background: rgba(255,255,255,.9);
+    -webkit-box-shadow: 1px 1px 10px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 1px 1px 10px 0px rgba(0,0,0,0.5);
+    box-shadow: 1px 1px 10px 0px rgba(0,0,0,0.5);
+}
+
+.mdl-layout__header{
+    /* display: flex; */
+}
+
+.mdl-layout__drawer-button{
+    background: rgba(255,255,255,.9);
+}
+
+.mdl-layout__content{
+    margin-top: -64px;
+}
+
+.mdl-navigation__link, .mdl-layout-title {
+    color: rgb(0, 95, 99) !important; 
+    font-family: 'quicksandregular', Arial;
+}
+
+.mdl-layout__drawer-button i{
+    color: rgb(0, 95, 99) !important; 
+}
+
+.mdl-card__title-text{
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+body{ 
+    font-family: 'quicksandregular', Arial;
+}
+
+h1{
+    font-size: 30px;
+    font-family: 'quicksandregular', Arial; 
+    color: rgb(0, 95, 99) !important; 
+}
+
+p{
+    font-size: 16px;
+    font-family: 'quicksandlight', Arial; 
+    text-align: justify;
+    margin-bottom:20px;
+}
+
+.especialidades-reconhecidas li {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.no-margins{
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+}
+
+.flex-center{
+    display: flex;
+    justify-content: center;
+}
+
+.flex-center div{
+    margin-left: 25px;
+}
+
+.professional-profile{
+    width: 100px;
+    height: 100px;
+    background: #333;
+    border-radius: 50%;
+    margin:20px auto;
+}
+
+.top-card{
+    display: flex; 
+    flex-direction: column;  
+    align-items: center;
+}
