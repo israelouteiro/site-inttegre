@@ -67,6 +67,7 @@ h1{
 
 h2{
     font-size: 22px;
+    line-height: 22px;
     font-family: 'quicksandregular', Arial; 
     color: rgb(0, 95, 99) !important; 
 }
@@ -78,12 +79,25 @@ p{
     margin-bottom:20px;
 }
 
+a{
+    color: rgb(0, 95, 99) !important; 
+    cursor: pointer;
+}
+
+i{
+    color: rgb(0, 95, 99) !important; 
+    margin: 10px 0;
+}
 .especialidades-reconhecidas{
     font-size: 24px;
     text-align: center; 
     margin-bottom: 35px;
     padding-right: 25px;
     padding-left: 25px;
+}
+
+.especialidades-reconhecidas img{
+    opacity: .7;
 }
 
 .no-margins{
@@ -129,6 +143,50 @@ p{
     align-items: center;
 }
 
-.m-bottom-35{
-    margin-bottom: 125px;
+.margins{
+    margin-top: 45px;
+    margin-bottom: 70px;
+}
+
+.mdl-textfield__label{
+    margin-bottom: -1px;
+}
+
+.mdl-textfield--floating-label.is-focused .mdl-textfield__label{
+    color: rgb(0, 95, 99) !important;
+}
+
+.mdl-textfield__label:after{
+    background-color: rgb(0, 95, 99) !important;
+}
+
+.no-paddings{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.mdl-textfield {
+    width: 100%;
+}
+
+.mdl-button--primary.mdl-button--primary {
+    color: rgb(0, 95, 99) !important;
+}
+
+footer{
+    border-top: 1px solid #efefef;
+}
+
+.margin-b5{
+    margin-bottom: 5px !important;
+}
+
+@media(max-width: 767px){
+    .flex-row{
+        display: flex;
+        flex-direction: column;
+    }
+    .m-bottom-mobile{
+        margin-bottom: 55px;
+    }
 }
