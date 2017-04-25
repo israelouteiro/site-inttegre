@@ -225,6 +225,8 @@ small {
 	left: 180px;
 }
 
+
+
 @media screen and (max-width: 767px) {
 	.localizacao {
 		left: -20px; 
@@ -269,12 +271,13 @@ footer a {
 }
 
 .back-to-top {
-	width: 60px;
-	height: 60px;
+	width: 40px;
+	height: 40px;
 	display: block;
 	position: fixed;
 	bottom: 10px;
-	right: 20px;
+	right: 35px;
+	cursor: pointer;
 }
 
 .back-to-top:hover {

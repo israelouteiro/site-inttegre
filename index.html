@@ -16,11 +16,14 @@
             <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css"> 
             <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css"> 
 
-
             <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
             <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
 
-             <link rel="stylesheet" href="css/main.css">   
+            <link rel="stylesheet" href="css/main.css"> 
+
+            <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">  
+
+            <link rel="icon" href="favicon.ico">  
 
         </head>
     <body>
@@ -34,20 +37,20 @@
               <div class="mdl-layout-spacer"></div>
               <!-- Navigation -->
               <nav class="mdl-navigation">
-                <a class="mdl-navigation__link" href="">Inicio</a>
-                <a class="mdl-navigation__link" href="">Especialidades</a>
-                <a class="mdl-navigation__link" href="">Profissionais</a>
-                <a class="mdl-navigation__link" href="">Contato</a>
+                <a class="mdl-navigation__link" onclick="gotoItem('#inicio')">Inicio</a>
+                <a class="mdl-navigation__link" onclick="gotoItem('#especialidades')">Especialidades</a>
+                <a class="mdl-navigation__link" onclick="gotoItem('#profissionais')">Profissionais</a>
+                <a class="mdl-navigation__link" onclick="gotoItem('#contato')">Contato</a>
               </nav>
             </div>
           </header>
           <div class="mdl-layout__drawer">
             <span class="mdl-layout-title">Inttegre</span>
             <nav class="mdl-navigation">
-                <a class="mdl-navigation__link" href="">Inicio</a>
-                <a class="mdl-navigation__link" href="">Especialidades</a>
-                <a class="mdl-navigation__link" href="">Profissionais</a>
-                <a class="mdl-navigation__link" href="">Contato</a>
+                <a class="mdl-navigation__link" onclick="cleanNGotoItem('#inicio')">Inicio</a>
+                <a class="mdl-navigation__link" onclick="cleanNGotoItem('#especialidades')">Especialidades</a>
+                <a class="mdl-navigation__link" onclick="cleanNGotoItem('#profissionais')">Profissionais</a>
+                <a class="mdl-navigation__link" onclick="cleanNGotoItem('#contato')">Contato</a>
             </nav>
           </div>
           <main class="mdl-layout__content">
@@ -60,7 +63,7 @@
 
                 <section class="container"> 
 
-                    <h1 class="text-center margins ">Bem vindo à Inttegre</h1>    
+                    <h1 class="text-center margins " id="inicio">Bem vindo à Inttegre</h1>    
                     <div class="row no-margins ">
                         <p> 
                             O nome Inttegre vem da proposta inicial de estabelecer a missão de integração do indivíduo em suas diferentes fases da vida e contextos em que está inserido, buscando uma totalidade de autoconhecimento, saúde e bem-estar nos diversos campos de desenvolvimento, como o da aprendizagem, o biológico, o psíquico e o social.
@@ -75,7 +78,7 @@
                         </p> 
                     </div>
 
-                    <h1 class="text-center margins ">Especialidades cientificamente reconhecidas</h1> 
+                    <h1 class="text-center margins" id="especialidades">Especialidades cientificamente reconhecidas</h1> 
                     <div class="row no-margins">
                         <div class="col-sm-12">
                             
@@ -117,7 +120,7 @@
                         </div>
                     </div>
 
-                    <h1 class="text-center margins">Profissionais</h1> 
+                    <h1 class="text-center margins" id="profissionais">Profissionais</h1> 
                     <div class="row no-margins"> 
                         
                         <div class="col-sm-4 col-sm-offset-2 col-xs-12 m-bottom-mobile"> 
@@ -149,7 +152,7 @@
                         <div class="flex-row flex-space-between margins">
                             <div class="col-sm-6">
 
-                                <h2 class="text-left">Fale Conosco</h2> 
+                                <h2 class="text-left" id="contato">Fale Conosco</h2> 
                                 <form action="#">
                                   <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
                                     <input class="mdl-textfield__input" type="text" id="sample3">
@@ -185,7 +188,7 @@
 
 
                 </section>
-                <footer class="container"> 
+                <footer class="container" > 
 
 
                                 <div class="col-sm-4 col-xs-12">
@@ -251,6 +254,13 @@
                         All Rights reserved to Inttegre@2017
                     </p>
                 </footer>
+
+
+                <div class="back-to-top">
+                    <img src="img/arrows2.png" width="100%">
+                </div> 
+
+
           </main>
         </div>
        
@@ -510,11 +520,24 @@
             wow.init();         
         </script> -->
 
+        
+
+        
+ 
+
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <script src="js/bootstrap.min.js"></script>  
         <script type="text/javascript" src="js/jquery.validate.js"></script>
         <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
-        <<script src="js/main.js"></script>
+        <script type="text/javascript" src="js/jquery.validate.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/wow.min.js"></script>
+        <script>
+            wow = new WOW(
+                {}
+            );
+            wow.init();         
+        </script>
 
     </body>
     </html>
