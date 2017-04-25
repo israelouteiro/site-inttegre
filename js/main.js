@@ -31,6 +31,10 @@ $(function() {
         dialogPolyfill.registerDialog(dialog);
     }
 
+    $('main').scroll(function(){
+    	previewsH = $('main').scrollTop();
+    });
+
 	validateForm();
 
 }); 
