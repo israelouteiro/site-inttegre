@@ -9,12 +9,12 @@
  	function sendMail($message, $subject, $target_mail){
 		
 		$idmail = time() . '.' . uniqid('prd') . date('YmdHis') . '@identifier.com' ; 
-		$email_sender = 'aidemoc@gmail.com'; 
+		$email_sender = 'inttegrepsicologia@gmail.com'; 
 		$array_sender = array( $email_sender => '' ) ;  
 
-		$transport = Swift_SmtpTransport::newInstance('email-smtp.us-east-1.amazonaws.com', 465, 'ssl')
-			-> setUsername('AKIAJRXMNCWRIC2LKEMQ')
-		 	-> setPassword('Ao5UNSulHa0AarjkTLK+v1xUm3DwLyMACdLi9NyFj24n');  
+		$transport = Swift_SmtpTransport::newInstance('smtp.gmail.com', 465, 'ssl')
+			-> setUsername($email_sender)
+		 	-> setPassword('mayemari');  
 
 	 	try{
 
@@ -48,7 +48,9 @@
 
 	$subject = "Novo contato recebido em www.inttegrepsicologia.com.br!";
 
-	sendMail($xmessage, $subject, "claudiogoncalvesrp@gmail.com");
-	sendMail($xmessage, $subject, "aidemoc@gmail.com");
+
+
+
+	sendMail($xmessage, $subject, "inttegrepsicologia@gmail.com"); 
 
 	echo 'ok';
